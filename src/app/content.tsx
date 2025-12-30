@@ -145,6 +145,21 @@ function Projects()
 				<p>Little Big Redstone is a NeoForge mod that adds a Microchip block that allows you to build redstone circuits within a gui.</p>
 			</Tile>
 			<Tile
+				icon={"hexagon-nodes"}
+				color={"orange"}
+				title={"Velocity Support"}
+				link={"https://www.curseforge.com/minecraft/mc-mods/neoforged-velocity-support"}
+				subtitle={
+					<span>
+						NeoForge Mod
+						<br/>
+						<ModDownloadCount modId={1416157}/> downloads
+					</span>
+				}
+			>
+				<p>Velocity Support adds support for Velocity&apos;s Modern Forwarding protocol on NeoForge.</p>
+			</Tile>
+			<Tile
 				icon={"code"}
 				color={"white"}
 				title={"Tesseract API"}
