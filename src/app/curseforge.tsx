@@ -1,7 +1,14 @@
+"use server";
+
+import { cacheLife } from "next/cache";
+
 export default async function ModDownloadCount({modId}: {
 	modId: number
 })
 {
+	"use cache";
+	cacheLife("hours");
+	
 	const response = await fetch(`https://api.curseforge.com/v1/mods/${modId}`, {
 		method: "GET",
 		headers: {

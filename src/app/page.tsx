@@ -1,8 +1,6 @@
 import {Header} from "@/app/header";
 import {Content} from "@/app/content";
 
-export const dynamic = "force-dynamic";
-
 export default async function Page()
 {
 	return (
